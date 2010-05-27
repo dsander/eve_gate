@@ -1,6 +1,9 @@
 = eve_gate
 
-Description goes here.
+== Disclaimer
+
+I wrote the library for educational purposes only! 
+CCP Karuck stated that "Crawling EVE Gate is forbidden as part of our soon to be updated Terms of Service, and can be a basis for an account ban.", even though eve_gate does not support crawling - it just _uses_ the site as a normal user would do, do not use it unless you are willing to risk your account.
 
 == Note on Patches/Pull Requests
  

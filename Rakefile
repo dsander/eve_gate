@@ -5,11 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "eve_gate"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A Ruby interface to EVE Gate}
+    gem.description = %Q{A Ruby interface to EVE Gate}
     gem.email = "git@dsander.de"
     gem.homepage = "http://github.com/dsander/eve_gate"
     gem.authors = ["Dominik Sander"]
+    gem.add_dependency "mechanize", ">= 1.0.0"
+    gem.add_dependency "activesupport"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

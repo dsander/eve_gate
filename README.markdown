@@ -22,7 +22,7 @@ I hope that CCP will actually release a complete eve mail api with write support
 	
 	puts g.eve_mails.first.body
 	puts g.alliance_mails.first.body
-	puts g.corporation_mails.frist.body
+	puts g.corporation_mails.first.body
 
 ## Note on Patches/Pull Requests
  
@@ -36,4 +36,9 @@ I hope that CCP will actually release a complete eve mail api with write support
 
 ## Copyright
 
-Copyright (c) 2010 Dominik Sander. See LICENSE for details.
+Copyright (c) 2010 Dominik Sander. 
+
+eve_gate is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+

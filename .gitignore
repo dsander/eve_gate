@@ -17,5 +17,5 @@ tmtags
 coverage
 rdoc
 pkg
-
+test.rb
 ## PROJECT::SPECIFIC
